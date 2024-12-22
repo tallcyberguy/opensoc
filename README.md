@@ -98,19 +98,29 @@ For maintenance and ease of deleting old records we can create a retention polic
 https://documentation.wazuh.com/current/user-manual/manager/event-logging.html
 
 Securing Linux computers is recommended but not needed since this is not a production environment.
+
 useradd newuser -m -G sudo 
+
 passwd newuser 
 
-Installing ssh-server on host 
+Installing ssh-server on host
+ 
 Sudo apt-get install openssh-server 
+
 Ssh-copy-id –i ~/.ssh/id_ras.pub root@yourserver
 
 SSH Config file modifications /etc/ssh/sshd_config
+
 Port 12222 
+
 PermitRootLogin no 
+
 PasswordAuthentication yes 
+
 PermitEmptyPasswords no 
+
 PubkeyAuthentication yes 
+
 AuthorizedKeysFile      .ssh/authorized_keys 
 
 
