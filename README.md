@@ -78,11 +78,17 @@ VM Solution Installations ( Assuming you know your way around vms)
 Create a documentation %100 you will need it. Otherwise machine passwords can be lost in a dust which is bad like really bad. 
 
 In OPNSense set static dhcp leasings by going to Services>DHCP4>Leases>Add
+
 In OPNSense enable IDS to generate alerts and inspect traffic which will be forwarded to wazuh via syslog.
+
 Before updating opnsense or installing a plugin download the config System>Configuration>Backups>Download. You never know when you will need it.
+
 In order to wazuh to generate it needs agents that delivers 7/24 so install agent on the machines.
+
 Forward firewall logs/ suricata logs to wazuh. OPNSense > System>Settings>Logging>Remote create one.
+
 Wazuh doesn't log all logs only alerts by default which is a wise policy but since we don't have storage issues we can enable logall option which is going to log all logs so that we can do queries in large logset.
+
 Change these settings to true/yes to log all logs.
 
 ![Screenshot 2024-12-22 at 20 44 19](https://github.com/user-attachments/assets/400c5951-7a61-4fa0-a722-1ccfdf579763)
