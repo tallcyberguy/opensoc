@@ -13,11 +13,16 @@ This repository contains the infrastructure-as-code (IaC) and documentation for 
 Key components include:  
 
 ✅ Wazuh as a SIEM to collect logs and create custom alerts.
+
 ✅TheHive as Security Incident Response Platform to create tickets and report.
-✅Opnsense as a Firewall & OpenVPN to securely access the environment
-✅Tpot as a honeypot to generate alerts from real attack done to my public IP
-✅Windows machine to gather telemetry about attacks done manually
-✅Velociraptor to acquire forensics data from Windows machines
+
+✅Opnsense as a Firewall & OpenVPN to securely access the environment.
+
+✅Tpot as a honeypot to generate alerts from real attack done to my public IP.
+
+✅Windows machine to gather telemetry about attacks done manually.
+
+✅Velociraptor to acquire forensics data from Windows machines.
 
 ## Deployment  
 
