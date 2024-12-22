@@ -1,6 +1,9 @@
 # OpenSoC
 OpenSource Security Operations Center
 
+<img width="2550" alt="Screenshot 2024-12-22 at 21 09 56" src="https://github.com/user-attachments/assets/f9393228-ba74-4c4a-ae66-37419804542c" />
+
+
 # Virtual Security Operations Center (VSOC) on Hetzner Cloud  
 
 This repository contains the infrastructure-as-code (IaC) and documentation for our VSOC deployed on Hetzner Cloud.  This setup provides 
