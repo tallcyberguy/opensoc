@@ -6,11 +6,11 @@ OpenSource Security Operations Center
 
 # Virtual Security Operations Center (VSOC) on Hetzner Cloud  
 
-This repository contains the infrastructure-as-code (IaC) and documentation for our VSOC deployed on Hetzner Cloud.  This setup provides 
+This repository contains the infrastructure-as-code (IaC) and documentation for our VSOC deployed on Hetzner Cloud.  This setup provides :
 - Real-time threat monitoring
 - Incident response capabilities
--Log aggregation for our internal network.  
-
+- Log aggregation for our internal network
+ 
 ## Architecture  
 
 Key components include:  
