@@ -62,10 +62,15 @@ Create vmb1 and vmbr2 for LAN and DMZ purposes and assing IP blocks. Do not prov
 VM Solution Installations ( Assuming you know your way around vms)
 
 **Installing Opnsense** >> https://www.youtube.com/watch?v=vJBoCgptF-0 ( login with installer opnsense ) 
+
 **Configuring DMZ** https://pfsensesetup.com/opnsenseinstall.com/configuring-the-dmz-in-opnsense-in-3-easy-steps/
+
 **Installing TheHive** >> The easiest deployment is via docker. Follow the steps mentioned here and you are good to go. https://docs.strangebee.com/thehive/installation/docker/#step-2-run-the-application-stack
+
 **Installing Wazuh** >> Create an ubuntu machine or cent os 7/8 and follow the steps. https://documentation.wazuh.com/current/quickstart.html
+
 **Installing TPOT** >> Follow the steps in here. Basically download repo and run install.sh https://github.com/telekom-security/tpotce?tab=readme-ov-file#installation
+
 **Installing Velociraptor** >> Can't go wrong with Markus Schober the man the myth if you want to install on Windows https://youtu.be/-bj0c158Wlo?si=l7sX6WcZiwwD2sfr on ubuntu https://www.youtube.com/watch?v=Jj0t4iXvdcU
 
 
@@ -105,4 +110,5 @@ AuthorizedKeysFile      .ssh/authorized_keys
 
 ## Contact  
 Linkedin > https://www.linkedin.com/in/hacksi/
+
 Youtube > https://www.youtube.com/@ihacksi
